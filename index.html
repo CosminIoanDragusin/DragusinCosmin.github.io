@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofoliu Drăgușin Cosmin</title>
-	<link rel="icon" type="image/x-icon" href="images/briefcase.png">
+    <link rel="icon" type="image/x-icon" href="images/briefcase.png">
     <link rel="stylesheet" href="style.css">
     <!-- Remix Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
@@ -15,51 +15,60 @@
 
 <body>
     <header id="home">
-    <nav>
-        <div class="logo">
-            <a href="#">Drăgușin Cosmin</a>
-        </div>
+        <nav>
+            <div class="logo">
+                <a href="#">Drăgușin Cosmin</a>
+            </div>
             <ul class="menu">
-                <li><a href="#home">Acasa</a></li>
-                <li><a href="#about">Despre</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#about">Despre mine</a></li>
+                <li><a href="#experience">Experiență</a></li>
+                <li><a href="#services">Competențe</a></li>
+                <li><a href="#portfolio">Portofoliu</a></li>
                 <li><a href="#interest">Interese</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        <div class="social_icon">
-            <a href="https://www.facebook.com/profile.php?id=100009869779269" target="_blank">
-                <i class="ri-facebook-fill"></i>
-            </a>
-            <a href="https://github.com/CosminIoanDragusin" target="_blank">
-                <i class="ri-github-fill"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/cosmin-dragusin-0b1a4a29a/" target="_blank">
-                <i class="ri-linkedin-fill"></i>
-            </a>
-            <a href="https://www.ejobs.ro/cv-ul-meu" target="_blank">
-                <i class="ri-briefcase-fill"></i>
-            </a>
-            <a href="https://www.bestjobs.eu/profile" target="_blank">
-                <i class="ri-user-search-line"></i>
-            </a>
+            <div class="social_icon">
+                <a href="https://www.facebook.com/profile.php?id=100009869779269" target="_blank">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/dragusin_cosmin/" target="_blank">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://github.com/CosminIoanDragusin" target="_blank">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/cosmin-dragusin-0b1a4a29a/" target="_blank">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.ejobs.ro/cv-ul-meu" target="_blank">
+                    <i class="ri-briefcase-fill"></i>
+                </a>
+                <a href="https://www.bestjobs.eu/profile" target="_blank">
+                    <i class="ri-user-search-line"></i>
+                </a>
+            </div>
+            <div class="bars">
+                <i class="ri-menu-2-line"></i>
+            </div>
+        </nav>
+        <div class="hero_content">
+            <br>
+            <h1>Salut, ma numesc Dragusin Cosmin</h1>
+            <h2>Student Master - Advanced Computing Systems, anul 2</h2>
+            <h2>Experiență și competențe:</h2>
+            <h2><span id="text"></span></h2>
+            <p> Sunt absolvent al Facultății de Inginerie din Sibiu, specializarea Tehnologia Informației,
+                promoția 2024, și în prezent sunt student în anul 2 la masterul Advanced Computing Systems.
+                În 2026 am realizat un internship la Bosch Rexroth Blaj, unde am acumulat experiență
+                în zona de producție și logistică, lucrând cu activități de production planning și delivery
+                planning și utilizând SAP. În prezent continui activitatea în cadrul Bosch Rexroth ca Working
+                Student. Pe lângă experiența din zona de producție și logistică, am experiență în dezvoltare
+                software, tehnologii web, C#/.NET, Java, C++, SQL și testare manuală și automatizată.
+                Îmi place să învăț prin practică și să îmi dezvolt constant competențele tehnice și profesionale.</p>
+            <button>Despre mine</button>
         </div>
-        <div class="bars">
-            <i class="ri-menu-2-line"></i>
-        </div>
-    </nav>
-    <div class="hero_content">
-        <br>
-        <h1>Salut, ma numesc Dragusin Cosmin</h1>
-        <h2>Competențele mele:</h2>
-        <h2><span id="text"></span></h2>
-        <p>Am absolvit Facultatea de Inginerie în 2024 și am experiență în C++, C#, JavaFX, Web Development,
-            precum și în testare manuală și automatizată folosind Selenium.
-            Sunt în căutarea unui loc de muncă în domeniul IT, unde să pot aplica cunoștințele dobândite și
-            să continui să mă dezvolt profesional.</p>
-        <button>Despre mine</button>
-    </div>
-</header>
+    </header>
     <section class="about" id="about">
         <div class="about_top">
             <div class="about_image">
@@ -68,12 +77,25 @@
             </div>
             <div class="about_content">
                 <h1>Despre Mine</h1>
-                <p>
-                    Am absolvit recent facultatea și sunt în căutarea unui loc de muncă în IT.
-                    Am lucrat cu C++, C#, Java, JavaFX și tehnologii web. Am și experiență în testare cu Selenium și testare manuală.
-                    Îmi doresc să îmi dezvolt cariera într-un mediu profesionist și colaborativ.
-                </p>
-                <button class="skill_btn">Arata Abilitatile</button>
+                <p> Sunt absolvent al Facultății de Inginerie din
+                    Sibiu, specializarea Tehnologia Informației,
+                    promoția 2024, și în prezent sunt student în anul 2
+                    la masterul Advanced Computing Systems. În 2026
+                    am avut oportunitatea de a realiza un internship
+                    la Bosch Rexroth Blaj, unde am acumulat experiență
+                    în zona de producție și logistică, lucrând cu
+                    activități de production planning și delivery
+                    planning și utilizând SAP. În prezent continui
+                    activitatea în cadrul Bosch Rexroth ca Working
+                    Student. </p>
+                <p> Pe lângă experiența acumulată în zona de
+                    producție și logistică, am experiență în
+                    dezvoltare software, tehnologii web, C#/.NET,
+                    Java, C++, SQL și testare manuală și
+                    automatizată. Îmi place să învăț prin practică
+                    și să îmi dezvolt constant competențele tehnice
+                    și profesionale. </p>
+                <button class="skill_btn">Arată Abilitățile</button>
             </div>
         </div>
         <div class="about_bottom">
@@ -161,21 +183,71 @@
     </section>
 
     <section class="hireMe">
-        <h1>Sunt valabil pentru angajare</h1>
-        <a href="https://drive.google.com/drive/folders/1iWqxDRYFNqi_syS4PUuJeTm_2Uj3xOUM?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank"><button>Hire Me</button></a>
+        <h1>Experiența mea profesională</h1>
+        <p>
+            În 2026 am realizat un internship la Bosch Rexroth Blaj,
+            iar în prezent lucrez în cadrul Bosch Rexroth ca Working Student.
+        </p>
+
+        <a href="https://drive.google.com/drive/folders/1iWqxDRYFNqi_syS4PUuJeTm_2Uj3xOUM?dmr=1&ec=wgc-drive-globalnav-goto"
+            target="_blank">
+            <button>Vezi CV-ul</button>
+        </a>
+    </section>
+
+    <section class="experience" id="experience">
+
+        <div class="headings">
+            <h1>Experiență Profesională</h1>
+        </div>
+
+        <div class="experience_card">
+
+            <h2>Bosch Rexroth</h2>
+
+            <h3>Working Student</h3>
+
+            <p>
+                Septembrie 2026 - prezent
+            </p>
+
+            <p>
+                Activitate în cadrul departamentului DC-LT/LOP2-Blj,
+                cu activități specifice zonei de producție și logistică.
+            </p>
+
+            <h3>Internship - Production Planning & Logistics</h3>
+
+            <p>
+                2026
+            </p>
+
+            <p>
+                Experiență în production planning și delivery planning,
+                utilizând SAP și lucrând cu date și procese specifice
+                activității de producție și logistică.
+            </p>
+
+        </div>
 
     </section>
 
     <section class="section-container">
-        <h2 class="section-title">Certifications:</h2>
+        <h2 class="section-title">Educations:</h2>
         <div class="card-container">
             <div class="card">
-                <h3>Diploma de Licenta Tehnologia Informatiei</h3>
-                <p>Facultatea de Inginerie Sibiu</p>
+                <h3>Master - Advanced Computing Systems</h3>
+                <p>Universitatea „Lucian Blaga” din Sibiu - Anul 2</p>
             </div>
+
+            <div class="card">
+                <h3>Licență - Tehnologia Informației</h3>
+                <p>Facultatea de Inginerie, Sibiu - Absolvit 2024</p>
+            </div>
+
             <div class="card">
                 <h3>Diploma de Bacalaureat</h3>
-                <p>Colegiul National Lucian Blaga, Sebes</p>
+                <p>Colegiul Național „Lucian Blaga”, Sebeș</p>
             </div>
         </div>
     </section>
@@ -220,7 +292,8 @@
                 </a>
             </div>
             <div class="portfolio_img portfolio4 mix category-c">
-                <a href="https://github.com/CosminIoanDragusin/Stream_Lab_final_OOP/blob/main/Stream_lab_final_OOP/Stream_lab_final_OOP.cpp" target="_blank">
+                <a href="https://github.com/CosminIoanDragusin/Stream_Lab_final_OOP/blob/main/Stream_lab_final_OOP/Stream_lab_final_OOP.cpp"
+                    target="_blank">
                     <img src="images/stream_oop_image.PNG" alt="o image de portofoliu">
                 </a>
             </div>
@@ -265,7 +338,8 @@
                         </div>
                         <div class="blog_content">
                             <h2>Web Development</h2>
-                            <p>Îmi place să creez site-uri clare și responsive, folosind HTML, CSS, JavaScript și GitHub.</p>
+                            <p>Îmi place să creez site-uri clare și responsive, folosind HTML, CSS, JavaScript și
+                                GitHub.</p>
                         </div>
                     </div>
                 </div>
@@ -281,7 +355,8 @@
                         </div>
                         <div class="blog_content">
                             <h2>Software Development</h2>
-                            <p>Sunt interesat de dezvoltarea aplicațiilor desktop și web, cu accent pe funcționalitate și structură curată.</p>
+                            <p>Sunt interesat de dezvoltarea aplicațiilor desktop și web, cu accent pe funcționalitate
+                                și structură curată.</p>
                         </div>
                     </div>
                 </div>
@@ -297,7 +372,8 @@
                         </div>
                         <div class="blog_content">
                             <h2>Artificial Intelligence</h2>
-                            <p>Sunt curios cum funcționează rețelele neurale, învățarea automată și aplicațiile practice ale AI.</p>
+                            <p>Sunt curios cum funcționează rețelele neurale, învățarea automată și aplicațiile practice
+                                ale AI.</p>
                         </div>
                     </div>
                 </div>
